@@ -33,9 +33,9 @@ This is for multer configuration.
 
 ### `Working`
 
-1. This projects first starts with uploading the pdf which then gets save into the database.\
-2. This then returns all saved pdf which you can view by choice.\
-3. Select pages to merge from the chosen pdf by clicking or tapping the required page.\
-4. Deselect pages by clicking or tapping again the selected page.\
+1. This projects first starts with uploading the pdf which then gets save into the database.
+2. This then returns all saved pdf which you can view by choice.
+3. Select pages to merge from the chosen pdf by clicking or tapping the required page.
+4. Deselect pages by clicking or tapping again the selected page.
 5. Finally click 'Merge Selected Pages' to merge the selected pages, which then the user can download.
 

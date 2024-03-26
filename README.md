@@ -27,5 +27,9 @@ Run this command from main directory not within the react folder to run the back
 
 Paste the mongodb url within server.mjs to connect your backend to the database.
 
+### `Make an empty file names - files`
+
+This is for multer configuration.
+
 
 

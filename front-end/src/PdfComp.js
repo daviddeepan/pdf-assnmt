@@ -3,8 +3,6 @@ import { Document, Page } from "react-pdf";
 import axios from "axios";
 import PDFMerger from "pdf-merger-js";
 
-
-
 function PdfComp(props) {
 	const [numPages, setNumPages] = useState();
 	const [pageNumber, setPageNumber] = useState(1);
@@ -35,7 +33,7 @@ function PdfComp(props) {
 			console.log(selectedPages.filter(Boolean).length);
 			const selectedPagesIndexes = selectedPages.reduce(
 				(acc, isSelected, index) => {
-					if (isSelected) acc.push(index); 
+					if (isSelected) acc.push(index);
 					return acc;
 				},
 				[]
@@ -75,9 +73,6 @@ function PdfComp(props) {
 	console.log("Merged Pdf Url:", mergedPDF);
 	return (
 		<div className="pdf-div">
-			<p>
-				Page {pageNumber} of {numPages}
-			</p>
 			<Document
 				file={props.pdfFile}
 				onLoadSuccess={onDocumentLoadSuccess}
@@ -91,9 +86,7 @@ function PdfComp(props) {
 							renderAnnotationLayer={false}
 							onClick={() => togglePageSelection(page)}
 							onDoubleClick={() => togglePageSelection(page)}
-							className={
-								selectedPages[page] ? "selected" : ""
-							}
+							className={selectedPages[page] ? "selected" : ""}
 						/>
 					)
 				)}

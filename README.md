@@ -38,3 +38,12 @@ This is for multer configuration.
 4. Deselect pages by clicking or tapping again the selected page.
 5. The selected pages will be highlighted by blue border.
 6. Finally click 'Merge Selected Pages' to merge the selected pages and view, which then the user can download.
+
+## _Preview_
+
+
+![Screenshot 2024-03-27 102629](https://github.com/daviddeepan/pdf-assnmt/assets/82031202/9dfed965-8641-427c-a1e7-d0f2da339625)
+![Screenshot 2024-03-27 102930](https://github.com/daviddeepan/pdf-assnmt/assets/82031202/a79318ae-5b9e-4aa5-ad5d-c4ba7888a49d)
+![Screenshot 2024-03-27 103048](https://github.com/daviddeepan/pdf-assnmt/assets/82031202/eb4b76c4-99b8-4393-bf13-8c5dbda5070b)
+![Screenshot 2024-03-27 103118](https://github.com/daviddeepan/pdf-assnmt/assets/82031202/515a74ad-27c1-4011-ae75-efc01677794f)
+

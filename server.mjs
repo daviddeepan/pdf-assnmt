@@ -12,7 +12,7 @@ app.use(cors());
 app.use("/files", express.static("files"));
 //mongodb connection----------------------------------------------
 const mongoUrl =
-	"mongodb+srv://davidfest1:david123@cluster0.z4fwstd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+	""; 
 
 mongoose
 	.connect(mongoUrl)
